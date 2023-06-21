@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix:Watch Unlimited Movies and Series</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@300;800&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5be0c859e6.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/c0b1921ddf.js" crossorigin="anonymous"></script> -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="net.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="navigation">
+        <h1 class = "brand"><strong>NETFLIX</strong></h1>
+            <nav>
+                <ul>
+                    <li><a class = "home" href="#">Home</a></li>
+                    <li><a class = "shows other" href="">Kids</a></li>
+                    <li><a class = "series other" href="">Series</a></li>
+                    <li><a class = "movie other" href="">Movies</a></li>
+                    <li><a class = "list other" href="">Adult</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div class="magnify">
+            <input type="search" placeholder = "Search">
+            <i class="fa-solid fa-magnifying-glass magnify" style="color: #ffffff;"></i>
+        </div> -->
+        <div class = "dropdown">
+            <input type="search" class="resposrch" placeholder = "Search on Netflix....">
+            <img src="menu (1).png" alt="Menu" class = "menu">
+            <img src="close (1).png" alt="Close" class = "close menu">
+        </div>
+        <div class="searchbar">
+            <i class="fa-solid fa-magnifying-glass fa-sm search" style="color: black;"></i>
+            <input type="search" placeholder = "Search on Netflix.." class = "inputsearch">
+            <abbr title="Notification"><i class="fa-sharp fa-solid fa-bell iconic" style="color: #ffffff;"></i></abbr>
+            <abbr title=""><i class="fa-solid fa-gift gift iconic" style="color: #ffffff;"></i></abbr> 
+            <abbr title="Netflix Games"><i class="fa-solid fa-gamepad iconic gamepad" style="color: white;"></i></abbr>
+            <img src="User.jpg" class = "user iconic" alt="User">
+            <i class="fa-solid fa-caret-down down " style="color: #ffffff;"></i>
+
+        </div>
+    </div>
+    <div class = "dropdiv">
+        <ul class = "unordereddiv">
+            <li><a href = "#"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a></li>
+            <li><a href = "#"><i class="fa-sharp fa-solid fa-bell"  style="color: #ffffff;"></i></a></li>
+            <li><a href = "#"><i class="fa-solid fa-gift"  style="color: #ffffff;"></i></a></li>
+            <li><a href = "#"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div class="onsearch">
+        <div class="backbtn">
+            <!-- <i class="fa-regular fa-backward fa-lg" style="color: #ffffff;"></i> -->
+            <i class="fa-solid fa-backward fa-lg" style="color: #ffffff;"></i>
+        </div>
+        <div class="preload">
+            <i class="fa-solid fa-child-reaching fa-2xl pre"  style="color: white;"></i>
+            <h2 class= "prehead">Search on Netflix....</h2>
+        </div>
+        <div class="afterload">
+            <img class = "afterimg" width = "300px" height = "500px" src="" alt="image.jpg">
+            <div class="details">
+                <h2 class = "headtitle">HeadTitle</h2>
+                <p class = "fetcheddata">Cast : <span class = "cast">Kylie Jyner</span></p>
+                <p class="fetcheddata">Year : <span class = "year">2012</span></p>
+                <p class="fetcheddata">IMDB Rank : <span class = "ranking">134</span></p>
+                <p class="fetcheddata">Type : <span class = "whttype">Tv Series</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <img src=" " alt="banner.jpg" class="bannerImg">
+        <div class="whatsin">
+            <h1 class = "title"></h1>
+            <p class = "about"></p>
+        </div>
+        <div class="infoplay">
+            <button type = "button"><i class="fa-solid fa-play" style="color: #000000;"></i> Play</button>
+            <button type = "button"><i class="fa-sharp fa-solid fa-circle-info" style="color: #000000;"></i> More Info</button>
+        </div>
+    </div>
+    <div class="game">
+        <h2>NETFLIX <span class="netgames">games</span></h2>
+        <div class= "imdino"></div>
+        <div class = "dino playbtn">
+            <i class="fa-solid fa-play " style="color: #ffffff;"></i>
+            <a href="Dragon.js"><h3 class = "play">Play</h3></a>
+        </div>
+        <div class = "dino ">
+        <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+        <h3 class = "back">Don't want to play</h3>
+    </div>
+    <img class = "logo" width = "90px;" src="logo.png" alt="">
+    </div>
+    <div class="allnetflix">
+        <h2 class = "heads ">Movies <span class = "explore"> ></span></h2>
+        <i class="fa-solid fa-arrow-right-to-line" style="color: #ffffff;"></i>
+        <div class="movies show"></div>
+        <h2 class = "heads ">Tv Series <span class = "explore"> ></span></h2>
+        <div class="tvseries show"></div>
+        <h2 class="heads">For Kids <span class = "explore"> ></span></h2>
+        <div class="cartoons show"></div>
+        <h2 class="heads">Adult<sup class = "censor">18+</sup> <span class = "explore"> ></span></h2>
+        <div class="adult show"></div>
+    </div>
+</main>
+<!-- <footer>
+    <div class="alllinks">
+    <div class="helplinks">
+        <ul>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+        </ul>
+    </div>
+    <div class="helplinks2">
+        <ul>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+        </ul>
+    </div>
+    <div class="helplinks3">
+        <ul>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+            <li><a href = "#"></a></li>
+        </ul>
+    </div>
+</div>
+<!-- <div class="copyright">
+    <p></p>
+</div> -->
+</footer> -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
