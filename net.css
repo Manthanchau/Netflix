@@ -679,6 +679,9 @@ footer{
   }
 }
 @media screen and (max-width : 400px){
+  .backbtn{
+    display : inline;
+  }
   .afterload img{
     margin-left: 50px;
 
